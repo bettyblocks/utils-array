@@ -23,6 +23,7 @@ rules:
     - LabeledStatement
     - WithStatement
   no-shadow: off
+  import/extensions: off
   no-underscore-dangle: off
   no-unused-expressions: [error, {allowShortCircuit: true}]
   no-useless-concat: off
